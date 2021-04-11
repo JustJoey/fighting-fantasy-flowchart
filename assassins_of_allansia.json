@@ -1,32 +1,486 @@
 [
     {
-        "id": 1,
+        "id": "1",
         "paths": [
-            356
+            {
+                "label": "STAY",
+                "id": "356"
+            },
+            {
+                "label": "GO",
+                "id": "161"
+            }
         ]
     },
     {
-        "id": 356,
+        "id": "356",
         "paths": [
-            281
+            {
+                "label": "CALL",
+                "id": "281"
+            },
+            {
+                "label": "TOSS COIN",
+                "id": "100"
+            }
         ]
     },
     {
-        "id": 281,
+        "id": "281",
         "notes": [
-            "LUCK"
+            "Test Your Luck"
         ],
         "paths": [
-            156
+            {
+                "label": "LUCKY",
+                "id": "156"
+            },
+            {
+                "label": "UNLUCKY",
+                "id": "220"
+            }
         ]
     },
     {
-        "id": 156,
+        "id": "156",
         "notes": [
-            "THIS IS A TEST"
+            "KNIFE FIGHTER 7,6"
         ],
         "paths": [
-            356
+            {
+                "label": "WIN",
+                "id": "174"
+            }
+        ]
+    },
+    {
+        "id": "174",
+        "notes": [
+            "SCORPION PENDANT",
+            "DAGGER"
+        ],
+        "paths": [
+            {
+                "label": "FOOD",
+                "id": "11"
+            },
+            {
+                "label": "SEARCH",
+                "id": "251"
+            }
+        ]
+    },
+    {
+        "id": "251",
+        "paths": [
+            {
+                "label": "WEAR RING",
+                "id": "322"
+            },
+            {
+                "label": "FOOD",
+                "id": "11"
+            }
+        ]
+    },
+    {
+        "id": "322",
+        "notes": [
+            "CURSED RING",
+            "-1 Stamina",
+            "-1 Skill",
+            "-2 Luck"
+        ],
+        "paths": [
+            {
+                "label": "FOOD",
+                "id": "11"
+            }
+        ]
+    },
+    {
+        "id": "11",
+        "notes": [
+            "-1 Stamina"
+        ],
+        "paths": [
+            {
+                "label": "FISH",
+                "id": "34"
+            },
+            {
+                "label": "EXPLORE",
+                "id": "116"
+            }
+        ]
+    },
+    {
+        "id": "34",
+        "notes": [
+            "-1 Stamina",
+            "-1 Luck"
+        ],
+        "paths": [
+            {
+                "label": "FISH",
+                "id": "382"
+            },
+            {
+                "label": "EXPLORE",
+                "id": "116"
+            }
+        ]
+    },
+    {
+        "id": "382",
+        "notes": [
+            "Test Your Luck"
+        ],
+        "paths": [
+            {
+                "label": "LUCKY",
+                "id": "278"
+            },
+            {
+                "label": "UNLUCKY",
+                "id": "142"
+            }
+        ]
+    },
+    {
+        "id": "142",
+        "notes": [
+            "-1 Skill",
+            "-1 Luck",
+            "-1 Stamina"
+        ],
+        "paths": [
+            {
+                "label": "EXPLORE",
+                "id": "116"
+            }
+        ]
+    },
+    {
+        "id": "116",
+        "paths": [
+            {
+                "label": "EAT",
+                "id": "76"
+            },
+            {
+                "label": "WALK",
+                "id": "242"
+            }
+        ]
+    },
+    {
+        "id": "76",
+        "notes": [
+            "-1 Skill",
+            "-1d6 Stamina"
+        ],
+        "paths": [
+            {
+                "label": "WALK",
+                "id": "242"
+            }
+        ]
+    },
+    {
+        "id": "242",
+        "paths": [
+            {
+                "label": "LIFT HAND",
+                "id": "343"
+            },
+            {
+                "label": "WALK",
+                "id": "223"
+            }
+        ]
+    },
+    {
+        "id": "343",
+        "notes": [
+            "-1 Skill",
+            "-1 Luck",
+            "-2 Stamina",
+            "Test Your Skill"
+        ],
+        "paths": [
+            {
+                "label": "PASS",
+                "id": "159"
+            },
+            {
+                "label": "FAIL",
+                "id": "46"
+            }
+        ]
+    },
+    {
+        "id": "159",
+        "paths": [
+            {
+                "label": "PRISE",
+                "id": "299"
+            },
+            {
+                "label": "SWIPE",
+                "id": "188"
+            }
+        ]
+    },
+    {
+        "id": "299",
+        "notes": [
+            "-2 Stamina"
+        ],
+        "paths": [
+            {
+                "id": "223"
+            }
+        ]
+    },
+    {
+        "id": "223",
+        "paths": [
+            {
+                "label": "FIGHT",
+                "id": "306"
+            },
+            {
+                "label": "FLEE",
+                "id": "359"
+            }
+        ]
+    },
+    {
+        "id": "359",
+        "notes": [
+            "Test Your Luck"
+        ],
+        "paths": [
+            {
+                "label": "LUCKY",
+                "id": "17"
+            },
+            {
+                "label": "UNLUCKY",
+                "id": "131"
+            }
+        ]
+    },
+    {
+        "id": "131",
+        "notes": [
+            "-2 Stamina",
+            "-1 Skill"
+        ],
+        "paths": [
+            {
+                "label": "FIGHT",
+                "id": "306"
+            }
+        ]
+    },
+    {
+        "id": "17",
+        "paths": [
+            {
+                "id": "213"
+            }
+        ]
+    },
+    {
+        "id": "306",
+        "notes": [
+            "DECAYER 8,8",
+            "-1 Skill (fight only)",
+            "-4 Stamina per hit"
+        ],
+        "paths": [
+            {
+                "label": "WIN",
+                "id": "97"
+            }
+        ]
+    },
+    {
+        "id": "213",
+        "paths": [
+            {
+                "label": "CAVE",
+                "id": "294"
+            },
+            {
+                "label": "WAIT",
+                "id": "185"
+            }
+        ]
+    },
+    {
+        "id": "185",
+        "notes": [
+            "Test Your Skill"
+        ],
+        "paths": [
+            {
+                "label": "PASS",
+                "id": "267"
+            },
+            {
+                "label": "FAIL",
+                "id": "138"
+            }
+        ]
+    },
+    {
+        "id": "267",
+        "notes": [
+            "RUBY",
+            "+1 Luck"
+        ],
+        "paths": [
+            {
+                "label": "CAVE",
+                "id": "201"
+            }
+        ]
+    },
+    {
+        "id": "201",
+        "paths": [
+            {
+                "label": "ROPE",
+                "id": "331"
+            },
+            {
+                "label": "CUPBOARD",
+                "id": "187"
+            }
+        ]
+    },
+    {
+        "id": "331",
+        "notes": [
+            "ROPE"
+        ],
+        "paths": [
+            {
+                "label": "CUPBOARD",
+                "id": "187"
+            }
+        ]
+    },
+    {
+        "id": "187",
+        "paths": [
+            {
+                "label": "LIFT LID",
+                "id": "122"
+            },
+            {
+                "label": "LOOK AROUND",
+                "id": "365"
+            }
+        ]
+    },
+    {
+        "id": "365",
+        "paths": [
+            {
+                "label": "OPEN CHEST",
+                "id": "56"
+            },
+            {
+                "label": "SCOUR BEACH",
+                "id": "231"
+            }
+        ]
+    },
+    {
+        "id": "56",
+        "paths": [
+            {
+                "label": "PURSE",
+                "id": "319"
+            },
+            {
+                "label": "BOX",
+                "id": "377"
+            },
+            {
+                "label": "SCOUR BEACH",
+                "id": "231"
+            }
+        ]
+    },
+    {
+        "id": "319",
+        "notes": [
+            "12 GOLD PIECES",
+            "+1 Luck"
+        ],
+        "paths": [
+            {
+                "label": "BOX",
+                "id": "377"
+            },
+            {
+                "label": "SCOUR BEACH",
+                "id": "231"
+            }
+        ]
+    },
+    {
+        "id": "377",
+        "notes": [
+            "2 DIAMONDS",
+            "RED INK",
+            "WORM PASTE",
+            "+1 Luck"
+        ],
+        "paths": [
+            {
+                "label": "PURSE",
+                "id": "319"
+            },
+            {
+                "label": "SCOUR BEACH",
+                "id": "231"
+            }
+        ]
+    },
+    {
+        "id": "231",
+        "notes": [
+            "SILVER COIN",
+            "RUSTY KNIFE"
+        ],
+        "paths": [
+            {
+                "label": "SWIM",
+                "id": "255"
+            },
+            {
+                "label": "CLIMB",
+                "id": "127"
+            }
+        ]
+    },
+    {
+        "id": "255",
+        "notes": [
+            "GIANT SEA SNAKE 7,7",
+            "-2 Skill (fight only)"
+        ],
+        "paths": [
+            {
+                "label": "WIN",
+                "id": "104"
+            }
         ]
     }
 ]
